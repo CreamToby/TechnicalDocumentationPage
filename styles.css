@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+    border: 3px solid black;
+    position: fixed;
+}
+
+nav header, nav a {
+    width: 250px;
+    height: 100%;
+    display: block;
+    font-size: 30px;
+    padding: 40px 10%;
+}
+
+
+#main-doc {
+    width: auto;
+    margin-left: 300px;
+}
+
+@media (max-width: 768px) {
+    .left {
+        float: none;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav header, nav a {
+        padding: 10px;
+    }
+
+    #main-doc {
+        margin-left: 0;
+    }
+}
