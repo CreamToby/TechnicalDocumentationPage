@@ -14,13 +14,38 @@ nav header, nav a {
     height: 100%;
     display: block;
     font-size: 30px;
-    padding: 40px 10%;
+    padding: auto;
+    margin: 25% 10%;
 }
 
 
 #main-doc {
     width: auto;
     margin-left: 300px;
+    font-size: 20px;
+    line-height: 1.8rem;
+}
+
+.main-section {
+    margin: 10px;
+}
+
+.main-section .topic {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.main-section p {
+    text-indent: 30px;
+}
+
+.main-section code {
+    background-color: #eee;
+}
+
+ul li {
+    margin-left: 30px;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +60,8 @@ nav header, nav a {
 
     nav header, nav a {
         padding: 10px;
+        margin: 5px;
+        font-size: 20px;
     }
 
     #main-doc {
